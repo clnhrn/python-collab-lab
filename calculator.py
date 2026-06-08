@@ -6,10 +6,19 @@ below the designated TODO comment to practice resolving merge conflicts.
 
 def welcome_message():
     print("Welcome to the Collaboration Calculator!")
-    print("test")
+
 # ==========================================
 # TODO: Add your functions below this line
 # ==========================================
+
+def divide(a, b):
+    return a / b if b != 0 else "Error"
+
+def multiply(a, b): 
+    return a * b
+
+def power(a, b):
+    return a ** b
 
 
 
