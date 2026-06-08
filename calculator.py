@@ -11,6 +11,9 @@ def welcome_message():
 # TODO: Add your functions below this line
 # ==========================================
 
+def divide(a, b):
+    return a / b if b != 0 else "Error"
+
 
 if __name__ == "__main__":
     welcome_message()
