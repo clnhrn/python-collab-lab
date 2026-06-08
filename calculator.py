@@ -6,10 +6,13 @@ below the designated TODO comment to practice resolving merge conflicts.
 
 def welcome_message():
     print("Welcome to the Collaboration Calculator!")
-    print("test")
+
 # ==========================================
 # TODO: Add your functions below this line
 # ==========================================
+
+def multiply(a, b): 
+    return a * b
 
 
 if __name__ == "__main__":
