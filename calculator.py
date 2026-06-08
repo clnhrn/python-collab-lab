@@ -12,5 +12,15 @@ def welcome_message():
 # ==========================================
 
 
+
+
+
+
+
+    def modulus(a, b):
+        return a % b
+
+
+
 if __name__ == "__main__":
     welcome_message()
